@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS- Equal Spacing</title>
+
+    <style>
+      * {
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+      #div1 {
+        width: 100%;
+        height: 100vh;
+      }
+      #div2 {
+        width: 33%;
+        text-align: center;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <br />
+      <br />
+      <hr />
+      <p align="center">
+        Equal Spacing between 3 div containers.
+        <br />
+        Set 33% for each container.
+        <br />
+        Set 0.5% left margin to the first div container.
+        <br />
+        Set 0.5% right margin to the last container.
+      </p>
+
+      <hr />
+    </div>
+    <br />
+    <br />
+
+    <div id="div1">
+      <div id="div2" style="margin-left: 0.5%">
+        <img src="images/profile-2.jpg" />
+      </div>
+      <div id="div2">
+        <img src="images/profile-2.jpg" />
+      </div>
+      <div id="div2" style="margin-right: 0.5%">
+        <img src="images/profile-2.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
